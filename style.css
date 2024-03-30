@@ -1,0 +1,80 @@
+/* Stylesheet */
+.body{
+    margin: 0;
+    padding: 0;
+    background: #373737;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #373737;
+    border-bottom: 1px solid white;
+}
+.header select{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    outline: none;
+}
+
+.age{
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    text-align: center;
+    
+}
+.age span{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.age-img{
+    width: 70%;
+    margin: auto;
+    border: 1px solid white;
+}
+.age-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.form{
+    text-align: center;
+}
+
+.form input[type="number"]{
+    height: 30px;
+    width: 30%;
+    outline-color: #373737;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #373737;
+}
+.form a{
+    color: white;
+    background: #373737;    
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 2px 93px;
+    text-decoration: none;
+}
+.form a:hover{
+    color: #373737;
+    background: white;
+    border: 1px solid #373737;
+}
+
+.footer{
+    text-align: center;
+    color: #00ff03;
+}
